@@ -6,6 +6,8 @@ metadata:
     github.com/project-slug: rmrosa25/rr_petclinic
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: other
-  lifecycle: unknown
-  owner: guests
+  type: service
+  lifecycle: experimental
+  owner: team-a
+  providesApis:
+    - petclinic
