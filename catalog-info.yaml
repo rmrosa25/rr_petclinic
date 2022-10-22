@@ -4,6 +4,7 @@ metadata:
   name: rr_petclinic
   annotations:
     github.com/project-slug: rmrosa25/rr_petclinic
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: other
   lifecycle: unknown
