@@ -9,5 +9,7 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-a
+  system: petclinic-engagement-portal
+  dependsOn: ['resource:petclinic-db']
   providesApis:
     - petclinic

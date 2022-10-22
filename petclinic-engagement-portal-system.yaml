@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: petclinic-engagement-portal
+  description: Everything related to petclinic
+  tags:
+    - portal
+spec:
+  owner: team-a
+  domain: Vets
